@@ -1,8 +1,5 @@
 module.exports = {
-  plugins: [
-    '@typescript-eslint',
-    'prettier',
-  ],
+  plugins: ['@typescript-eslint', 'prettier'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -14,6 +11,10 @@ module.exports = {
     require.resolve('./rules/nest'),
     require.resolve('./rules/grpc'),
   ],
+  env: {
+    node: true,
+    jest: true,
+  },
   overrides: [
     {
       /**

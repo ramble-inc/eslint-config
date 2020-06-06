@@ -1,9 +1,11 @@
 {
-  "name": "@ramble/eslint-config",
+  "name": "@ramble-inc/eslint-config",
   "version": "0.0.1",
-  "description": "ESLint config for NestJS with TypeScript (and optionally gPRC)",
+  "description": "ESLint config for NestJS with TypeScript (and optionally gPRC) used in Ramble.inc",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,6 @@
     "nest",
     "grpc"
   ],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.1.0",
@@ -33,5 +34,11 @@
     "prettier": "^1.19.1"
   },
   "devDependencies": {
+    "@ramble-inc/prettier-config": "^0.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "prettier": "^1.19.1"
   }
 }
