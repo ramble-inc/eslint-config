@@ -9,7 +9,6 @@ module.exports = {
     require.resolve('./rules/base'),
     require.resolve('./rules/typescript'),
     require.resolve('./rules/nest'),
-    require.resolve('./rules/grpc'),
   ],
   env: {
     node: true,
