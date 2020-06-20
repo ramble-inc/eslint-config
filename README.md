@@ -1,7 +1,8 @@
 # @ramble-inc/eslint-config
 <a href="https://www.npmjs.com/@ramble-inc/eslint-config" target="_blank"><img src="https://img.shields.io/npm/v/@ramble-inc/eslint-config.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/@ramble-inc/eslint-config" target="_blank"><img src="https://img.shields.io/npm/l/@ramble-inc/eslint-config.svg" alt="Package License" /></a>
 <a href="https://www.npmjs.com/@ramble-inc/eslint-config" target="_blank"><img src="https://img.shields.io/npm/dm/@ramble-inc/eslint-config.svg" alt="NPM Downloads" /></a>
+<a href="https://github.com/ramble-inc/eslint-config/actions" target="_blank"><img src="https://github.com/ramble-inc/eslint-config/workflows/CI/badge.svg" alt="GitHub Actions Status" /></a>
+<a href="https://www.npmjs.com/@ramble-inc/eslint-config" target="_blank"><img src="https://img.shields.io/npm/l/@ramble-inc/eslint-config.svg" alt="Package License" /></a>
 
 ## Getting Started
 
