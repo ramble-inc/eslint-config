@@ -12,6 +12,6 @@ module.exports = {
      * It's not appropriate for NestJS components to use static method
      * whenever no 'this' are used.
      */
-    'class-methods-use-this': ['off']
+    'class-methods-use-this': 'off',
   },
 };
