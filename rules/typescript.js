@@ -13,5 +13,13 @@ module.exports = {
      * Assuming it's ok to use async handler
      */
     '@typescript-eslint/no-misused-promises': 'off',
+
+    /**
+     * Allow enum to be UPPER_CASE
+     */
+    '@typescript-eslint/naming-convention': [
+      'error',
+      { selector: 'enum', format: ['UPPER_CASE'] },
+    ],
   },
 };
