@@ -1,6 +1,6 @@
 {
   "name": "@ramble-inc/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config for NestJS with TypeScript (and optionally gPRC) used in Ramble.inc",
   "main": "index.js",
   "files": [
